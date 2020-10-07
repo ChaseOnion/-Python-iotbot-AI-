@@ -1,4 +1,3 @@
-import json                                                          
 from iotbot import GroupMsg
 from iotbot.decorators import not_botself, only_this_msg_type        
 from iotbot.sugar import Text                                        
