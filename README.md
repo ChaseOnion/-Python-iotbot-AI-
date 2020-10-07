@@ -8,3 +8,5 @@ python-iotbot:https://github.com/xiyaowong/python--iotbot
 他通过Python-iotbot与opqbot交互
 是个AI
 使用之前请一定要阅读 Chatter-bot的文档
+怎么导入:
+看完Python-iotbot的文档你就知道了
