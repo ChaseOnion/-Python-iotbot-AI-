@@ -5,10 +5,10 @@ from iotbot.utils import MsgTypes
 
 from chatterbot import ChatBot
 from chatterbot.trainers import ListTrainer
+bot = ChatBot('qwq',storage_adapter='chatterbot.storage.SQLStorageAdapter',database_uri='sqlite:///database.sqlite3')
+
 def AIbot(text):
-    bot = ChatBot('qwq',storage_adapter='chatterbot.storage.SQLStorageAdapter',database_uri='sqlite:///database.sqlite3')
-
-
+    
     try:
         bot_input = bot.get_response(text)
         print("输出: ",bot_input)
