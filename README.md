@@ -8,7 +8,7 @@
 
 [OPQBot]https://github.com/OPQBOT/OPQ  
 
-[python-iotbot]:https://github.com/xiyaowong/python--iotbot  
+[python-iotbot]https://github.com/xiyaowong/python--iotbot  
 
 #这是一个用chatterbot写的插件  
 
